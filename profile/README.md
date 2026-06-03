@@ -1,12 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/utPLSQL/utPLSQL-logo/main/utPLSQL-testing-framework-transparent.png" alt="utPLSQL — Unit Testing Framework for Oracle PL/SQL" width="600">
+  <img src="https://raw.githubusercontent.com/utPLSQL/utPLSQL-logo/main/utPLSQL-testing-framework-transparent_small_background.png" alt="utPLSQL — Unit Testing Framework for Oracle PL/SQL" width="600">
 </p>
 
-# utPLSQL
+# About
 
-**Unit Testing Framework for Oracle PL/SQL**
-
-utPLSQL is a free, open-source unit testing framework for Oracle Database PL/SQL code, inspired by the xUnit family of frameworks.
+utPLSQL is a set of free-to use, open-source frameworks and tools for unit testing Oracle Database PL/SQL code, inspired by the xUnit and rspec family of frameworks.
 
 ## Projects
 
