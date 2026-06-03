@@ -1,0 +1,37 @@
+title: "[Announcement] "
+labels: ["announcement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for official project announcements: releases, deprecations, breaking changes, events, and project news.
+        Only maintainers can post here. Community members can comment and reply.
+
+  - type: textarea
+    id: announcement-body
+    attributes:
+      label: Announcement
+      description: The full announcement text.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: announcement-type
+    attributes:
+      label: Type
+      options:
+        - Release
+        - Deprecation
+        - Breaking change
+        - Project news
+        - Event
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: affected-versions
+    attributes:
+      label: Affected versions
+      description: Which versions of utPLSQL or ecosystem components does this affect? Leave blank if not applicable.
+      placeholder: "e.g. utPLSQL 3.1.x and above, utPLSQL-cli 3.2.0"

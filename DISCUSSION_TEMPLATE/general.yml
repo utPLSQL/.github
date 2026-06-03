@@ -1,0 +1,20 @@
+title: ""
+labels: ["general"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for anything that does not fit elsewhere: project philosophy, community chat, tooling opinions, or anything else on your mind.
+
+        If your topic fits a more specific category, please use that instead:
+        - Usage question -> **Q&A**
+        - Feature idea -> **Feature Requests**
+        - Bug you have found -> **Bug Triage** in the utPLSQL repository
+        - CI, IDE, or third-party integration -> **Ecosystem & Integrations**
+
+  - type: textarea
+    id: content
+    attributes:
+      label: What is on your mind?
+    validations:
+      required: true

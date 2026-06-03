@@ -1,0 +1,47 @@
+title: ""
+labels: ["ecosystem"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for discussions about using utPLSQL with external tools, environments, and platforms: CI systems, IDEs, Docker images, cloud databases, reporting tools, and third-party plugins.
+
+  - type: dropdown
+    id: integration-type
+    attributes:
+      label: Integration type
+      options:
+        - CI/CD (GitHub Actions, Azure Pipelines, Jenkins, GitLab CI, other)
+        - IDE (SQL Developer, VS Code, IntelliJ, other)
+        - Docker / containerised databases
+        - Cloud database (AWS RDS, Azure, OCI, other)
+        - Reporting / coverage tooling
+        - Third-party plugin or wrapper
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool or platform name and version
+      placeholder: "e.g. GitHub Actions, Azure Pipelines 2.x, SQL Developer 23.1"
+    validations:
+      required: false
+
+  - type: textarea
+    id: content
+    attributes:
+      label: Question, tip, or discussion
+      description: Describe your setup, question, or the tip you want to share.
+    validations:
+      required: true
+
+  - type: textarea
+    id: configuration
+    attributes:
+      label: Relevant configuration or code
+      description: Paste any relevant YAML, scripts, or configuration here. This will be rendered as code automatically.
+      render: yaml
+    validations:
+      required: false

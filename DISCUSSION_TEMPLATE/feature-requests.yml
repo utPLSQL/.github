@@ -1,0 +1,50 @@
+title: "[Feature] "
+labels: ["feature-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for feature ideas that affect multiple components or the direction of the project as a whole.
+
+        For feature requests specific to the framework (matchers, annotations, reporters, suite behaviour), use **Feature Requests** in the utPLSQL repository instead.
+
+        A maintainer will mark this discussion as answered once the proposal is accepted or declined, and will open an issue to track implementation if accepted.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or motivation
+      description: What problem does this feature solve? What is the current pain point?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the feature you have in mind. Include examples of how it would be used if possible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you considered any alternative approaches or workarounds?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Primary component affected
+      options:
+        - Multiple components
+        - utPLSQL framework
+        - utPLSQL-cli
+        - utPLSQL-java-api
+        - utPLSQL-maven-plugin
+        - Documentation
+        - Other
+    validations:
+      required: true

@@ -1,0 +1,33 @@
+title: "[Roadmap] "
+labels: ["roadmap"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This category is for maintainer-driven roadmap and release planning discussions. Community members are welcome to comment and give feedback.
+
+        If you have a feature idea to propose, please use **Feature Requests** instead.
+
+  - type: input
+    id: target-release
+    attributes:
+      label: Target release or timeframe
+      placeholder: "e.g. v4.0, Q3 2025, next major release"
+    validations:
+      required: false
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and goals
+      description: What are the goals and planned scope for this roadmap item?
+    validations:
+      required: true
+
+  - type: textarea
+    id: open-questions
+    attributes:
+      label: Open questions for the community
+      description: What specific feedback or input are you looking for?
+    validations:
+      required: false

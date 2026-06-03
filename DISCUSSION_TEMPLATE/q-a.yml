@@ -1,0 +1,45 @@
+title: ""
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for usage questions that span multiple components or where you are not sure which part of the utPLSQL ecosystem is involved.
+
+        If your question is clearly specific to one component, consider posting there directly:
+        - Framework annotations, matchers, reporters -> **utPLSQL repository Q&A**
+        - CLI -> utPLSQL-cli repository
+        - Maven plugin -> utPLSQL-maven-plugin repository
+
+  - type: input
+    id: utplsql-version
+    attributes:
+      label: utPLSQL version
+      placeholder: "e.g. 3.1.13"
+    validations:
+      required: false
+
+  - type: input
+    id: oracle-version
+    attributes:
+      label: Oracle Database version
+      placeholder: "e.g. 19c, 21c"
+    validations:
+      required: false
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Describe what you are trying to do and what you have already tried.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Relevant code or configuration
+      description: Paste any relevant SQL, PL/SQL, YAML, or command output here. This will be rendered as code automatically.
+      render: sql
+    validations:
+      required: false

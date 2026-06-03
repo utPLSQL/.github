@@ -1,0 +1,15 @@
+title: ""
+labels: ["sustainability"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for discussions about the sustainability, governance, and funding of the utPLSQL project: GitHub Sponsors, the funding model, project governance, and long-term direction.
+
+  - type: textarea
+    id: content
+    attributes:
+      label: Topic
+      description: What would you like to discuss?
+    validations:
+      required: true
