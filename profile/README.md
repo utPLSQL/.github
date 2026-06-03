@@ -28,7 +28,7 @@ utPLSQL is a free, open-source unit testing framework for Oracle Database PL/SQL
 
 ## Community
 
-- [GitHub Discussions](https://github.com/utPLSQL/utPLSQL/discussions) — questions and ideas
+- [GitHub Discussions](https://github.com/orgs/utPLSQL/discussions) — questions and ideas
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/utplsql) — tag `utplsql`
 
 ## Contributing
