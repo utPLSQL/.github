@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/utPLSQL/utPLSQL-logo/main/utPLSQL-testing-framework-transparent.png" alt="utPLSQL — Unit Testing Framework for Oracle PL/SQL" width="600">
+</p>
+
 # utPLSQL
 
 **Unit Testing Framework for Oracle PL/SQL**
@@ -22,7 +26,6 @@ utPLSQL is a free, open-source unit testing framework for Oracle Database PL/SQL
 
 ## Community
 
-- [Slack](https://join.slack.com/t/utplsql/shared_invite/zt-2bvhfzfr4-gWzB9r8SNB1P1sLlLEGpSQ) — chat with the community
 - [GitHub Discussions](https://github.com/utPLSQL/utPLSQL/discussions) — questions and ideas
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/utplsql) — tag `utplsql`
 
