@@ -8,15 +8,16 @@ utPLSQL is a set of free-to use, open-source frameworks and tools for unit testi
 
 ## Projects
 
-| Project                                                                       | Description                                                |
-|-------------------------------------------------------------------------------|------------------------------------------------------------|
-| [utPLSQL](https://github.com/utPLSQL/utPLSQL)                                 | Core framework — install and run unit tests in Oracle      |
-| [utPLSQL-cli](https://github.com/utPLSQL/utPLSQL-cli)                         | Command-line client for running tests from CI/CD pipelines |
-| [utPLSQL-maven-plugin](https://github.com/utPLSQL/utPLSQL-maven-plugin)       | Maven plugin for running utPLSQL tests                     |
-| [utPLSQL-SQLDeveloper](https://github.com/utPLSQL/utPLSQL-SQLDeveloper)       | SQL Developer extension                                    |
-| [utPLSQL-PLSQL-Developer](https://github.com/utPLSQL/utPLSQL-PLSQL-Developer) | PL/SQL Developer extension                                 |
-| [utPLSQL-java-api](https://github.com/utPLSQL/utPLSQL-java-api)               | Java API for connecting to utPLSQL                         |
-| [utPLSQL-dotnet-api](https://github.com/utPLSQL/utPLSQL-dotnet-api)           | .NET API for connecting to utPLSQL                         |
+| Project                                                                       | Description                                                                                         |
+|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| [utPLSQL](https://github.com/utPLSQL/utPLSQL)                                 | Core framework — install and run unit tests in Oracle                                               |
+| [utPLSQL-demo-project](https://github.com/utPLSQL/utPLSQL-demo-project)       | Demonstration project showcasing running utPLSQL tests in Github Actions with dockerized Oracle DB  |
+| [utPLSQL-cli](https://github.com/utPLSQL/utPLSQL-cli)                         | Command-line client for running tests from CI/CD pipelines                                          |
+| [utPLSQL-maven-plugin](https://github.com/utPLSQL/utPLSQL-maven-plugin)       | Maven plugin for running utPLSQL tests                                                              |
+| [utPLSQL-SQLDeveloper](https://github.com/utPLSQL/utPLSQL-SQLDeveloper)       | SQL Developer extension                                                                             |
+| [utPLSQL-PLSQL-Developer](https://github.com/utPLSQL/utPLSQL-PLSQL-Developer) | PL/SQL Developer extension                                                                          |
+| [utPLSQL-java-api](https://github.com/utPLSQL/utPLSQL-java-api)               | Java API for connecting to utPLSQL                                                                  |
+| [utPLSQL-dotnet-api](https://github.com/utPLSQL/utPLSQL-dotnet-api)           | .NET API for connecting to utPLSQL                                                                  |
 
 ## Getting Started
 
