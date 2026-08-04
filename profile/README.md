@@ -16,25 +16,26 @@ Built-in code coverage reporting and muti-format test result reporting, make utP
 existing CI/CD pipelines, with native integrations for SonarQube, Jenkins and TeamCity, Azure, GitHub Actions etc.
 
 ## Frameworks and tools
-
-| Project                                                                       | Description                                                                                         |
-|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [utPLSQL](https://github.com/utPLSQL/utPLSQL)                                 | Core framework — install and run unit tests in Oracle                                               |
-| [utPLSQL-demo-project](https://github.com/utPLSQL/utPLSQL-demo-project)       | Demonstration project showcasing running utPLSQL tests in Github Actions with dockerized Oracle DB  |
-| [utPLSQL-cli](https://github.com/utPLSQL/utPLSQL-cli)                         | Command-line client for running tests from CI/CD pipelines                                          |
-| [utPLSQL-maven-plugin](https://github.com/utPLSQL/utPLSQL-maven-plugin)       | Maven plugin for running utPLSQL tests                                                              |
-| [utPLSQL-SQLDeveloper](https://github.com/utPLSQL/utPLSQL-SQLDeveloper)       | SQL Developer extension                                                                             |
-| [utPLSQL-PLSQL-Developer](https://github.com/utPLSQL/utPLSQL-PLSQL-Developer) | PL/SQL Developer extension                                                                          |
-| [utPLSQL-java-api](https://github.com/utPLSQL/utPLSQL-java-api)               | Java API for connecting to utPLSQL                                                                  |
-| [utPLSQL-dotnet-api](https://github.com/utPLSQL/utPLSQL-dotnet-api)           | .NET API for connecting to utPLSQL                                                                  |
+<!--start-frameworks-table-->
+| Project                                                                       | Description                                                                                         | What's new?                                                             | Something broken?                                                               |
+|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [utPLSQL](https://github.com/utPLSQL/utPLSQL)                                 | Core framework — install and run unit tests in Oracle                                               | [releases](https://github.com/utPLSQL/utPLSQL/releases)                 | [report it here](https://github.com/utPLSQL/utPLSQL/issues/new)                 |
+| [utPLSQL-cli](https://github.com/utPLSQL/utPLSQL-cli)                         | Command-line client for running tests from CI/CD pipelines                                          | [releases](https://github.com/utPLSQL/utPLSQL-cli/releases)             | [report it here](https://github.com/utPLSQL/utPLSQL-cli/issues/new)             |
+| [utPLSQL-maven-plugin](https://github.com/utPLSQL/utPLSQL-maven-plugin)       | Maven plugin for running utPLSQL tests                                                              | [releases](https://github.com/utPLSQL/utPLSQL-maven-plugin/releases)    | [report it here](https://github.com/utPLSQL/utPLSQL-maven-plugin/issues/new)    |
+| [utPLSQL-SQLDeveloper](https://github.com/utPLSQL/utPLSQL-SQLDeveloper)       | SQL Developer extension                                                                             | [releases](https://github.com/utPLSQL/utPLSQL-SQLDeveloper/releases)    | [report it here](https://github.com/utPLSQL/utPLSQL-SQLDeveloper/issues/new)    |
+| [utPLSQL-PLSQL-Developer](https://github.com/utPLSQL/utPLSQL-PLSQL-Developer) | PL/SQL Developer extension                                                                          | [releases](https://github.com/utPLSQL/utPLSQL-PLSQL-Developer/releases) | [report it here](https://github.com/utPLSQL/utPLSQL-PLSQL-Developer/issues/new) |
+| [utPLSQL-java-api](https://github.com/utPLSQL/utPLSQL-java-api)               | Java API for connecting to utPLSQL                                                                  | [releases](https://github.com/utPLSQL/utPLSQL-java-api/releases)        | [report it here](https://github.com/utPLSQL/utPLSQL-java-api/issues/new)        |
+| [utPLSQL-dotnet-api](https://github.com/utPLSQL/utPLSQL-dotnet-api)           | .NET API for connecting to utPLSQL                                                                  |                                                                         | [report it here](https://github.com/utPLSQL/utPLSQL-dotnet-api/issues/new)      |
+| [utPLSQL-demo-project](https://github.com/utPLSQL/utPLSQL-demo-project)       | Demonstration project showcasing running utPLSQL tests in Github Actions with dockerized Oracle DB  |                                                                         | [report it here](https://github.com/utPLSQL/utPLSQL-demo-project/issues/new)    |
+<!--end-frameworks-table-->
 
 
 ## Community
 
-utPLSQL is developed 100% voluntarily by an open community, which embraces a 
+utPLSQL is created by an open community of passionates, and it embraces a 
 [Code of Conduct](https://github.com/utPLSQL/.github/blob/main/CODE_OF_CONDUCT.md).
 
-* Search or start a topic on [GitHub Discussions](https://github.com/utPLSQL/utPLSQL/discussions) to ask questions, find support and share ideas
+* Search or start a topic at the [Organization](https://github.com/utPLSQL/discussions) or [the utPLSQL framework](https://github.com/utPLSQL/utPLSQL/discussions) GitHub Discussions to ask questions, find support and share ideas
 * Search [Stack Overflow](https://stackoverflow.com/questions/tagged/utplsql) using the `utplsql` tag
 * Open a new [issue on GitHub](https://github.com/utPLSQL/utPLSQL/issues) for bugs or feature requests
 * Read the [contributing guide](https://github.com/utPLSQL/utPLSQL/blob/develop/CONTRIBUTING.md) if you'd like to get involved
