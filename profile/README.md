@@ -35,7 +35,7 @@ existing CI/CD pipelines, with native integrations for SonarQube, Jenkins and Te
 utPLSQL is created by an open community of passionates, and it embraces a 
 [Code of Conduct](https://github.com/utPLSQL/.github/blob/main/CODE_OF_CONDUCT.md).
 
-* Search or start a topic at the [Organization](https://github.com/utPLSQL/discussions) or [the utPLSQL framework](https://github.com/utPLSQL/utPLSQL/discussions) GitHub Discussions to ask questions, find support and share ideas
+* Search or start a topic at the [Organization](https://github.com/orgs/utPLSQL/discussions) or [the utPLSQL framework](https://github.com/utPLSQL/utPLSQL/discussions) GitHub Discussions to ask questions, find support and share ideas
 * Search [Stack Overflow](https://stackoverflow.com/questions/tagged/utplsql) using the `utplsql` tag
 * Open a new [issue on GitHub](https://github.com/utPLSQL/utPLSQL/issues) for bugs or feature requests
 * Read the [contributing guide](https://github.com/utPLSQL/utPLSQL/blob/develop/CONTRIBUTING.md) if you'd like to get involved
