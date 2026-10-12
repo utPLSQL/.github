@@ -1,0 +1,6 @@
+# Default for every utPLSQL repository that has no FUNDING.yml of its own.
+# Enable the GitHub Sponsors line at go-live, once the Sponsors profile is live:
+# an unknown account here breaks the Sponsor button.
+# github: utPLSQL
+custom:
+  - https://www.utplsql.org/sponsors.html
