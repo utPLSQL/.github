@@ -6,6 +6,8 @@ body:
       value: |
         Use this category for discussions about the sustainability, governance, and funding of the utPLSQL project: GitHub Sponsors, the funding model, project governance, and long-term direction.
 
+        Looking to sponsor, or need commercial support, consulting or an invoice? Read https://www.utplsql.org/sponsors.html. Please do not post commercial enquiries or contract details in a public discussion.
+
   - type: textarea
     id: content
     attributes:
