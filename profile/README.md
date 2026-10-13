@@ -1,4 +1,4 @@
-<p align="center">
+<p style="text-align: center;">
   <img src="https://raw.githubusercontent.com/utPLSQL/utPLSQL-logo/main/utPLSQL-testing-framework-transparent_small_background.png" alt="utPLSQL — Unit Testing Framework for Oracle PL/SQL" width="600">
   <br>
   <a href="https://www.utplsql.org/sponsors.html"><img src="https://img.shields.io/badge/Sponsor-utPLSQL-ea4aaa?logo=githubsponsors" alt="Sponsor utPLSQL"></a>
@@ -48,9 +48,10 @@ and [LinkedIn](https://www.linkedin.com/company/utplsql/) for news and announcem
 ## Sponsorship
 
 utPLSQL is free and open source (Apache 2.0). Sponsorship funds maintainer time, compatibility with new Oracle versions and platforms, documentation, and new features.
-
-- **Organizations**: recognition tiers, and commercial support with priority triage and consultation hours
-- **Individuals**: any amount, one-time or monthly
+ 
+If you are interested in sponsoring or supporting the project as:
+- **Organization**: you may choose between recognition tiers, and commercial support with priority triage and consultation hours
+- **Individual**: we welcome donation of any amount, one-time or monthly
 
 [Become a sponsor](https://www.utplsql.org/sponsors.html)
 
